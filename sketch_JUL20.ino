@@ -157,7 +157,7 @@ case 4:
     {
       if (DPF_Regen_b==2)
       {
-        digitalWrite(LED10, HIGH);
+        analogWrite(LED10, 50);
       }
       mode_number = 5;
       A=0;
