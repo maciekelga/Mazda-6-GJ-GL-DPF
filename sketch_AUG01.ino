@@ -169,7 +169,23 @@ case 4:
     
 case 5:
 
-      if ((PM_GEN_calc) <0.3)
+      if (((PM_GEN_calc) <4.6) && ((PM_ACC_calc) > 5.7)) && DPF_Regen==0 )
+      {
+        analogWrite(LED1, 50);
+        analogWrite(LED2, 50);
+        analogWrite(LED3, 50);
+        analogWrite(LED4, 50);
+        analogWrite(LED5, 50);
+        analogWrite(LED6, 50);
+        analogWrite(LED7, 50); 
+        analogWrite(LED8, 50);  
+        analogWrite(LED9, 50);
+	delay(500);
+	analogWrite(LED9, 0);
+	delay(500);
+      }
+      
+      else if ((PM_GEN_calc) <0.3)
       {
         analogWrite(LED1, 0);
         analogWrite(LED2, 0);
@@ -270,21 +286,7 @@ case 5:
         analogWrite(LED9, 0);
       }
 
-      if (((PM_GEN_calc) <4.72) && ((PM_ACC_calc) > 5.7)) && DPF_Regen==0 )
-      {
-        analogWrite(LED1, 50);
-        analogWrite(LED2, 50);
-        analogWrite(LED3, 50);
-        analogWrite(LED4, 50);
-        analogWrite(LED5, 50);
-        analogWrite(LED6, 50);
-        analogWrite(LED7, 50); 
-        analogWrite(LED8, 50);  
-        analogWrite(LED9, 0);
-	delay(500);
-	analogWrite(LED9, 50);
-	delay(500);
-      }
+     
 
       else if (((PM_GEN_calc) >=4.71) && ((PM_GEN_calc) < 5.34)))
       {
