@@ -181,6 +181,7 @@ case 5:
         analogWrite(LED8, 50);  
         analogWrite(LED9, 50);
 	delay(500);
+	analogWrite(LED8, 0);      
 	analogWrite(LED9, 0);
 	delay(500);
       }
