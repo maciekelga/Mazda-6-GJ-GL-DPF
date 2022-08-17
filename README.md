@@ -6,3 +6,6 @@ Circuit is based on ESP32 DevKit V1 30 pin version and 10 x LED bar. LEDs from 1
 
 There are two type of code:
 One is based on MAC address - need to be updated in code, second is based on name, standard name is "V-LINK", if is different need to be updated.
+
+## Neccessary libraries
+https://github.com/PowerBroker2/ELMduino
