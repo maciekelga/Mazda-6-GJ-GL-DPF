@@ -222,7 +222,7 @@ case 4:
     DPF_Regen_b = vlink.responseByte_3;
       if (DPF_Regen_b==2)
       {
-        if (((PM_GEN_calc_act)>5.2) || ((PM_ACC_calc_act)>5.2))
+        if (((PM_GEN_calc_act)>5.2) || ((PM_ACC_calc_act)>5.2) || (PM_GEN_calc < PM_GEN_calc_act))
         {
           count_2++;
           if (count_2 >5)
