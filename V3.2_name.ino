@@ -646,15 +646,6 @@ case 6:
       {
 	      if (S11 == false)
 	      {
-        ledcWrite(1, 0);
-        ledcWrite(2, 0);
-        ledcWrite(3, 0);
-        ledcWrite(4, 0);
-        ledcWrite(5, 0);
-        ledcWrite(6, 0);
-        ledcWrite(7, 0);
-        ledcWrite(8, 0);
-        ledcWrite(9, 0);
         ledcWrite(10, 0);
       	S1 = false;
 	      S2 = false;
