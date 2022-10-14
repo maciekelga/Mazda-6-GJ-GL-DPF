@@ -239,8 +239,8 @@ case 4:
 
       if (DPF_Regen_b==2)
       {
-        if (((PM_GEN_calc_act)>5.2) || ((PM_ACC_calc_act)>5.2) || (PM_GEN_calc < PM_GEN_calc_act))
-        {
+        //if (((PM_GEN_calc_act)>5.2) || ((PM_ACC_calc_act)>5.2) || (PM_GEN_calc < PM_GEN_calc_act))
+        //{
           count_2++;
           if (count_2 >5)
            {
@@ -250,7 +250,7 @@ case 4:
 	    regen_state = false;
 		  digitalWrite(LED_PCB, !digitalRead(LED_PCB));
            }
-        }
+        //}
 
       }
       else
