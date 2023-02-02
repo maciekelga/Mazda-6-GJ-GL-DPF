@@ -11,7 +11,8 @@ One is based on MAC address - need to be updated in code, second is based on nam
 
 Instruction is in polish language.
 
+Project can't be copy and sell.
+
 ## Neccessary libraries
 https://github.com/PowerBroker2/ELMduino
 
-Project can't be copy and sell.
