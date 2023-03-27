@@ -12,7 +12,8 @@ Instruction is in polish language.
 
 Project can't be copy and sell.
 
+https://youtube.com/shorts/jTqBH3UMz80?feature=share
+
 ## Neccessary libraries
 https://github.com/PowerBroker2/ELMduino
 
-https://youtube.com/shorts/jTqBH3UMz80?feature=share
