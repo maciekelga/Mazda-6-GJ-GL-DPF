@@ -14,9 +14,6 @@ BluetoothSerial SerialBT;
 #define LED9 26 // LED
 #define LED10 27 // LED
 #define ILL_IN 13 // LED
-//----
-#define LED_PCB 2
-//-----
 ELM327 vlink; //przypisanie nazwy vlink
 
 bool S1 = false;
@@ -100,11 +97,6 @@ void setup()
   ledcAttachPin(LED10, 10);
   ledcSetup(10, 1000, 16);
   pinMode(ILL_IN, INPUT_PULLUP);
-
-	//-----
-	pinMode(LED_PCB,OUTPUT);
-	//---
-
 
   ill_in_state = digitalRead(ILL_IN);
   if (ill_in_state == true)
@@ -230,12 +222,7 @@ case 4:
     {
     DPF_Regen_b = vlink.responseByte_3;
       
-	 //-------
-	  DPF_Regen_b=2;
-	//--------
-	  
-	  
-     if (regen_status==false)	
+     if (regen_state==false)	
 
       if (DPF_Regen_b==2)
       {
@@ -246,9 +233,7 @@ case 4:
            {
             ledcWrite(10, PWM_value_orb); 
             count_2 = 0;
-		  //---zmienic false na true
-	    regen_state = false;
-		  digitalWrite(LED_PCB, !digitalRead(LED_PCB));
+	    regen_state = true;
            }
         //}
 
