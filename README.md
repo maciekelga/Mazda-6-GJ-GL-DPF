@@ -15,3 +15,4 @@ Project can't be copy and sell.
 ## Neccessary libraries
 https://github.com/PowerBroker2/ELMduino
 
+https://youtube.com/shorts/jTqBH3UMz80?feature=share
