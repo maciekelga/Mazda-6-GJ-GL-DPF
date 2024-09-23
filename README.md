@@ -14,6 +14,8 @@ Project can't be copy and sell.
 
 https://youtube.com/shorts/jTqBH3UMz80?feature=share
 
+https://mazda6forum.pl/viewtopic.php?f=62&t=14609
+
 ## Neccessary libraries
 https://github.com/PowerBroker2/ELMduino
 
