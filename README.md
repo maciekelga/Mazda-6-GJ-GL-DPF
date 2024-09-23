@@ -1,4 +1,4 @@
-# Mazda-6-GJ-GL-DPF
+# Mazda-6-GJ-GL-DPF indicator
 # #DPF regeneration indicator // Wskaźnik wypalania DPF
 
 This is a simple program which give a oportunity to get an view to DPF filling and regeneration. Program is based on PM_GEN which linnerary increase together with used fuel. In most cases PM_GEN with value more than 5.7-5.9 activate DPF regeneration if filter is working properly. 
